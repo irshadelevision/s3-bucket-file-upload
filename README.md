@@ -6,7 +6,7 @@ file upload to object storages.
 2. Digital Ocean Space
 3. AWS S3
 
-## Requirement
+## Before executing the code. Do
 1. Rename .env_sample tp .env
 2. add all the credentials to the .env file
 3. run yarn install
