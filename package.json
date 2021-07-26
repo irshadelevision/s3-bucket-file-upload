@@ -1,0 +1,15 @@
+{
+  "name": "s3-bucket-file-upload",
+  "version": "1.0.0",
+  "description": "file upload to object storage solutions like linode object storage, digital ocean space, aws s3",
+  "main": "app.js",
+  "author": "Irshad",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "aws-sdk": "^2.953.0",
+    "dotenv": "^10.0.0",
+    "file-type": "^16.5.2",
+    "uuid": "^8.3.2"
+  }
+}
