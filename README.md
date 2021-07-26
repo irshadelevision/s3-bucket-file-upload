@@ -7,7 +7,7 @@ file upload to object storages.
 3. AWS S3
 
 ## Before executing the code. Do
-1. Rename .env_sample tp .env
+1. Rename .env_sample to .env
 2. add all the credentials to the .env file
 3. run yarn install
 4. run node app.js
