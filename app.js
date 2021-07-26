@@ -6,12 +6,11 @@ const FileType = require('file-type')
 
 const s3Config = {
     accessKeyId: process.env.S3_ACCESS_KEY_ID,
-    secretAccesskey: process.env.S3_SECRET_ACCESS_KEY,
+    secretAccessKey: process.env.S3_SECRET_ACCESS_KEY,
     endpoint: process.env.S3_ENDPOINT
 }
 AWS.config.update(s3Config)
 const s3Client = new AWS.S3()
-
 
 const uploadFile = async () => {
     const fileName = './upload/a.jpeg'
